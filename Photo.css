@@ -1,0 +1,37 @@
+#Home {
+    height:60px;
+    width:70px;
+    border-radius: 80px;
+}
+body {
+    background-image:linear-gradient(#F8BBD0,#FFB74D,#81D4FA);
+  border-style:outset;
+}
+h1 {
+    text-align: center;
+    word-spacing: 10px;
+  font-variant: normal;
+  font-size: 80px;
+  color: #ff1744;
+  font-family: Courier New, Lucida Console, Monaco;
+  font-weight: 900;
+}
+#Download{
+    height:70px;
+    width:200px;
+}
+iframe:hover {
+    
+}
+button {
+    font-weight:900;
+  color:#6A1B9A;
+  font-size:20px;
+  border-radius:80px;
+  border-width:5px;
+  padding: 10px;
+  border-color:#64DD17;
+  background-color:#FFEA00;
+  font-family:Copperplate,
+Papyrus;
+}
