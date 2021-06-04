@@ -1,3 +1,3 @@
 function Home() {
-    window.open("http://127.0.0.1:49693/C-58-Project-My%20Favourite-2/index.html#Photo%20Gallery","_blank");
+    window.open("https://super-abhinav.github.io/Project-My-Favourite-2/","_blank");
 }
