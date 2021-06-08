@@ -13,6 +13,7 @@
     width: 100%;
     z-index: 9;
 }
+
 body {
     text-align: center;
     background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
@@ -28,7 +29,7 @@ p {
     font-size: 25px;
     color: purple;
     font-weight: bold;
-    font-family: "Akronim",cursive;
+    font-family: "Akronim", cursive;
 }
 
 h2 {
@@ -47,7 +48,7 @@ h2 {
     padding: 20px;
     font-size: 18;
     text-align: center;
-    background-image: linear-gradient(lightgreen,#f2ab29,yellow);
+    background-image: linear-gradient(lightgreen, #f2ab29, yellow);
 }
 
 #My_Photo {
@@ -59,10 +60,12 @@ h2 {
     border: 5px solid blue;
     padding: 5px;
 }
-#My_Photo:hover{
+
+#My_Photo:hover {
     border: 4px solid purple;
     transform: scale(0.9);
 }
+
 .menu {
     font-family: 'Akronim', cursive;
     font-size: 20px;
@@ -89,59 +92,109 @@ h2 {
     font-size: 20px;
     border: 2px solid #f01c41;
 }
-.links:hover{
-    background-image: linear-gradient(pink,lavender,skyblue);
+
+.links:hover {
+    background-image: linear-gradient(pink, lavender, skyblue);
     font-size: 25px;
     text-decoration: underline;
-    color:dodgerblue;
-    font-family: Brush Script MT,cursive;
+    color: dodgerblue;
+    font-family: Brush Script MT, cursive;
 }
+
 label {
-  color:#311B92;
-  text-decoration:underline;
-  font-size:35px;
-  font-weight:bold;
-  font-family:Copperplate,
-  Papyrus;
+    color: #311B92;
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Copperplate,
+        Papyrus;
 }
+
 #Ms_Dhoni {
-  height: 270px;
-  border-style:dotted;
-  border-color:#6200EA;
-  border-width:10px;
-  padding: 5px;
-  border-radius: 80px;
+    height: 270px;
+    border-style: dotted;
+    border-color: #6200EA;
+    border-width: 10px;
+    padding: 5px;
+    border-radius: 80px;
 }
+
 html {
     scroll-behavior: smooth;
 }
-button{
-  font-weight:900;
-  color:#6A1B9A;
-  font-size:20px;
-  border-radius:80px;
-  border-width:5px;
-  padding: 10px;
-  border-color:#64DD17;
-  background-color:#FFEA00;
-  font-family:Copperplate,
-Papyrus;
+
+button {
+    font-weight: 900;
+    color: #6A1B9A;
+    font-size: 20px;
+    border-radius: 80px;
+    border-width: 5px;
+    padding: 10px;
+    border-color: #64DD17;
+    background-color: #FFEA00;
+    font-family: Copperplate,
+        Papyrus;
 }
-.article{
-  color :#6A1B9A;
-  text-align:center;
-  font-family:Brush Script MT,
-Lucida Handwriting;
-  background-image:linear-gradient(#F8BBD0,#FFB74D,#81D4FA);
-  border-style:outset;
-  font-size: 30px;
+
+.article {
+    color: #6A1B9A;
+    text-align: center;
+    font-family: Brush Script MT,
+        Lucida Handwriting;
+    background-image: linear-gradient(#F8BBD0, #FFB74D, #81D4FA);
+    border-style: outset;
+    font-size: 30px;
 }
+
 #Player {
-    background-image: linear-gradient(red,yellow);
+    background-image: linear-gradient(red, yellow);
 }
+
 #Writings {
-    background-image: linear-gradient(#ff512f,#dd2476);
+    background-image: linear-gradient(#ff512f, #dd2476);
 }
+
 #Photo_Gallery {
-    background-image: linear-gradient(#ff5f6d,#ffc371); 
+    background-image: linear-gradient(#ff5f6d, #ffc371);
+}
+
+h2 {
+    font-size: 25px;
+    color: purple;
+    font-weight: bold;
+    font-family: "Akronim", cursive;
+}
+
+#MSD {
+    height: 270px;
+    border-style: dotted;
+    border-color: #6200EA;
+    border-width: 10px;
+    padding: 5px;
+    border-radius: 80px;
+    transition: transform .2s;
+}
+
+#PC {
+    height: 270px;
+    border-style: dotted;
+    border-color: orangered;
+    border-width: 10px;
+    padding: 5px;
+    border-radius: 80px;
+    transition: transform .2s;
+}
+
+#Inspirations {
+    background-image: linear-gradient(#2196f3, #f44336);
+}
+#MSD:hover {
+    transform: scale(0.9);
+}
+#PC:hover {
+    transform: scale(0.9);
+}
+#My_life_Inspirations {
+    background-image: linear-gradient(#dd2476,#ff512f);
+    border-style: outset;
 }
