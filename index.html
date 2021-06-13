@@ -7,9 +7,17 @@
     <title>My favourite.com</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <form action="https://formsubmit.co/abhinav.ananddps2807@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New submission!">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="text" name="message" placeholder="write your message here" required>
+        <input type="hidden" name="_next" value="https://ania-kubow.com/thanks.html">
+        <button type="submit">Send</button>
+    </form>
     <ul class="menu">
         <li class="links"><a href="#section1">About</a></li>
         <li class="links"><a href="#Player">My Favorite player</a></li>
@@ -21,10 +29,10 @@
     </ul>
     <section id="section1">
         <img id="My_Photo" src="My%20Photo.jpeg">
-        <h1>My Favourite Hobby is <br><span id="name">Playing Cricket</span></h1><br>
+        <h1 id="helo">My Favourite Hobby is <br><span id="name">Playing Cricket</span></h1><br>
     </section>
     <section id="bio">
-        <label id="About">About</label><br>
+        <label id="About" onclick="sendEmail()">About</label><br>
         <div class="line"></div>
         <p>My name is Abhinav Anand.I am from Patna,Bihar.I am currently studying in 5th Grade in DPS PATNA School.My hobby is to play cricket. When i was 4 years old then i started playing Cricket. I get refreshed after playing it. I feel energetic after playing it. It also gives me chance to socialise with my friends. I work with full concentration after playing it. I am a good Batsman. My favourite Player is M.S Dhoni. I have learned all the techniques and tricks of batting just by seeing him playing matches for India in T20 or Test Match. Whenever i get time, i go outside to play cricket with my friends. While playing it, we have lots of fun together. On Saturday and Sunday, i spend atleast 2-3 hours playing it. I have purchased a Cricket Kit also to improve my batting. And with god's grace, i have been selected in my school team. In inter-school competition, I played brilliantly and gained victory for my school. My teachers and parents became very happy.</p>
     </section><br>
@@ -32,7 +40,7 @@
         <label id="MS Dhoni">My Favourite Player</label><br>
         <div class="line"></div>
         <img id="Ms_Dhoni" src="Ms%20Dhoni.jpg">
-        <div><label id="MSD">MS Dhoni</label></div>
+        <div><label id="MSDI">MS Dhoni</label></div>
         <p>Mahendra Singh Dhoni (born 7 July 1981), is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. Under his captaincy, India won the inaugural 2007 ICC World Twenty20, the 2010 and 2016 Asia Cups, the 2011 ICC Cricket World Cup and the 2013 ICC Champions Trophy. A right-handed middle-order batsman and wicket-keeper, Dhoni is one of the highest run scorers in One Day Internationals (ODIs) with more than 10,000 runs scored and is considered an effective "finisher" in limited-overs formats.He is widely regarded as one of the greatest wicket-keeper batsmen and captains in the history of the game.He was also the first wicket-keeper to effect 100 stumpings in ODI cricket</p>
     </section>
     <section id="Writings">
@@ -50,15 +58,75 @@
     <section id="Inspirations">
         <label id="Inspiration">My Hobby Inspiration</label>
         <div class="line"></div>
-        <h2>Click on the pictures to view my Inspiration</h2>
+        <h2 id="h">Click on the pictures to view my Inspiration</h2>
         <a href="https://sugermint.com/ms-dhoni-success-story-from-ticket-collector-to-indian-international-cricketer/" target="_blank"> <img id="MSD" src="MS-Dhoni-64.jpg"></a><br> <br>
         <a href="https://en.wikipedia.org/wiki/Pat_Cummins" target="_blank"> <img id="PC" src="Pat%20Cummins.jpg"></a><br> <br>
     </section>
     <section id="My_life_Inspirations">
         <label id="Life Inspiration">My life Inspiration</label>
         <div class="line"></div>
-        <h2>My dream is to be a successful entrepreneur and make a startup at my youngest age. Click on the pictures to view my life Inspiration</h2>
+        <h2 id="h">My dream is to be a successful entrepreneur and make a startup at my youngest age. Click on the pictures to view my life Inspiration</h2>
         <span><a href="https://www.biography.com/business-figure/elon-musk" target="_blank"> <img id="MSD" src="download%20(4).jpg"></a>
-        <a href="https://www.thefamouspeople.com/profiles/sundar-pichai-6439.php" target="_blank"> <img id="PC" src="download%20(2).jpg"></a></span>
+            <a href="https://www.thefamouspeople.com/profiles/sundar-pichai-6439.php" target="_blank"> <img id="PC" src="download%20(2).jpg"></a></span>
     </section>
-</body></html>
+    <section id="contact" style="background: #353353;padding: 15px;">
+        <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" media="all">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp" style="font-weight: 900; margin-left:0px;color: white;visibility: visible;">Get In Touch</h2>
+
+
+            <div class="row">
+
+                <div class="col-md-8">
+
+                    <h3 class="wow fadeInUp" style="font-weight: 900;color:white">Abhinav Anand
+                        <a href="mailto:abhinav.ananddps2807@gmail.com?Subject=Feedback">
+                            <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>abhinav.ananddps2807@gmail.com</h3></a>
+                    </h3>
+                    <hr style="border: 0.5px solid white;">
+                    <img src="My%20Photo.jpeg" style="display: inline-block; width: 100px;border-radius: 100px" class="mb-4">
+                    <p style="margin: 5px; color: white; display: inline-block;">Please free feel to contact me on my social handles</p>
+                    <div>
+                        <div class="container">
+                            <form action="https://formsubmit.co/abhinav.ananddps2807@gmail.com" method="POST">
+
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+                                    <option value="australia">India</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="usa">USA</option>
+                                    <option value="usa">Australia</option>
+                                </select>
+
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                                <input type="submit" value="Submit" onclick="sendEmail()">
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <h3 class="wow fadeInUp" style="font-weight: 900;color: white;">FOLLOW ME</h3>
+                    <hr style="border: 0.5px solid white;">
+                    <p style="color: white;">Let us be social</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28786.96212438724!2d85.1581398841569!3d25.592609807667323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58a4f7010ad9%3A0x4f5462cbde51ebac!2sPatna%2C%20Bihar%20800026!5e0!3m2!1sen!2sin!4v1623517095095!5m2!1sen!2sin" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
